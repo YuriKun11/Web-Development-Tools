@@ -1,0 +1,170 @@
+body {
+    background-image: linear-gradient(to top right, #f4f2ff, #dad4ff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-size: cover;
+    height: 100vh;
+    color: #2b32b2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #6d4aff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #6d4aff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.lesson button {
+    background-color: #65C667;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.progress {
+    flex: 1;
+}
+
+.progress-fill {
+    background-color: #65C667;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: 80%;
+   margin: auto;
+}
+
+.generator-wrap{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.cardboard1{
+    background-color: #202229;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.cardboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+.cardboard1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6d4aff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width: 900px) {
+    body {
+        height: auto;
+    
+    }
+
+    nav{
+        display: none;
+    }
+
+    .generator-wrap{
+        display: flex;
+        flex-direction: column;
+       
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    
+    }
+
+  }

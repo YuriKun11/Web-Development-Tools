@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Eyedropper Tool</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="h3">
+            <h3>Click the color</h3>
+        </div>
+     
+        <div class="colors">
+            <input type="color" id="color-a" value="#1488cc">
+           
+        </div>
+       
+        <button id="submit" onclick="generateCode()">Generate</button>
+        <div class="output">
+            <textarea id="code" rows="2"></textarea>
+            <button id="copy" onclick="copyText()">Copy</button>
+        </div>
+    </div>
+
+    <div class="custom-alert">Hex Code Copied</div>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
